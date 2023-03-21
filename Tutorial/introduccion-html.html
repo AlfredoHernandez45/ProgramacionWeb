@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Introducción a HTML</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+		body p {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ul li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body h2 {
+			font-size: 40px;
+			font-weight: 400;
+		}
+	</style>
+</head>
+<body class="index_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
+		<div class="content">
+			<h1>Introducción a HTML</h1>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
+		</div>
+	</div>
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
+		<div class="content">
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
+				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
+				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
+				<li><span>></span><a href="index-manual-html.html">Manual de HTML</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="descrip" style="margin-bottom: 50px;">
+		<div class="content">
+			<p style="margin-bottom: 30px;">
+				<b style="font-size: 2em; color: #999; font-weight: 400; line-height: 160%;">Las primeras cosas que debes saber sobre HTML: historia, objetivos y demás conocimientos donde sentar las bases del manual.</b>
+			</p>
+			<p style="margin-bottom: 30px;"><strong>HTML es el lenguaje con el que se escribe el contenido de las páginas web.</strong> Las páginas web pueden ser vistas por el usuario mediante un tipo de aplicación llamada cliente web o más comúnmente "navegador". Podemos decir por lo tanto que el HTML es el lenguaje usado por para especificar el contenido que los navegadores deben representar a la hora de mostrar una página web.</p>
+			<p>Este lenguaje nos permite aglutinar textos, imágenes, enlaces... y combinarlos a nuestro gusto. La ventaja del HTML a la hora de representar el contenido en un navegador, con respecto a otros formatos físicos como libros o revistas, es justamente la posibilidad de colocar referencias a otras páginas, por medio de los enlaces hipertexto.</p>
+			<h2 style="margin: 30px 0;">Un poco de historia</h2>
+			<p style="margin-bottom: 30px;">El lenguaje HTML se creó en 1991. Tiene una historia realmente corta pero para su poca vida ha sufrido importantes cambios. Su padre es Tim Berners-Lee que lo diseñó con objetivos divulgativos. Inicialmente no se pensó que la web llegaría a ser un área de ocio con carácter multimedia, de modo que, nació sin dar respuesta a todos los posibles usos que se le iba a dar y a todos los colectivos de gente que lo utilizarían en un futuro. Sin embargo, pese a esta deficiente planificación, si que se han ido incorporando modificaciones con el tiempo, agregando nuevas características para cubrir las nuevas necesidades.</p>
+			<p style="margin-bottom: 30px;">Como hemos dicho, los programas que leen y presentan las páginas web a los usuarios se llaman navegadores. Éstos son los responsables de interpretar el HTML y "pintar" una página tal como ellos entiendan que deben hacer. Sin embargo, esas reglas de representación no son subjetivas de cada fabricante del navegador, sino que existe una organización llamada W3C que se encarga de definir el estándar que todos deben seguir a la hora de escribir e interpretar el HTML. Estos estándares del HTML se conocen como "Especificaciones", las cuales han ido apareciendo en el tiempo. El HTML5 es el último estándar en la actualidad.</p>
+			<p>Históricamente los navegadores, además de la propia comunidad de usuarios, han sido los mayores impulsores de los cambios ocurridos en el lenguaje. Una vez detectada la necesidad es el W3C el que crea el estándar y marca una dirección que todos deben seguir.</p>
+			<h2 style="margin: 30px 0;">Los navegadores y sus problemas</h2>
+			<p style="margin-bottom: 30px;">El conflicto generado por los navegadores es debido a su diversidad. Existen multitud de navegadores o clientes web presentes en el mercado los cuales muchas veces no son capaces de interpretar un mismo código de una manera unificada. Esto obliga al desarrollador a, una vez creada su página, comprobar que esta puede ser leída satisfactoriamente por todos los navegadores, o al menos, los más utilizados. Cuando surgen problemas de interpretación, queda de parte del desarrollador resolver el problema tirando de técnicas o conocimientos que él disponga.</p>
+			<p style="margin-bottom: 30px;">Afortunadamente, en la actualidad las diferencias de interpretación de los navegadores con respecto a un mismo código HTML son mínimos, pero en el pasado los desarrolladores tenían que emplear mucho tiempo en remar contracorriente para solucionarlos. Sin embargo, quedan todavía muchos usuarios que navegan con sistemas anticuados, ya sea por falta de interés para actualizarse, conocimientos, o por disponer ordenadores muy antiguos.</p>
+			<p>Pero no todo ha sido malo por parte de los navegadores. Ellos también son los responsables de introducir nuevas etiquetas en el uso común del día a día, que se han ido incorporando al estándar HTML en sucesivas versiones. Aunque antes de estandarizarse esas etiquetas era común que cada navegador crease su etiqueta propietaria para resolver la misma necesidad, lo que obligaba a los desarrolladores a repetir código o incluso a hacer versiones de páginas diferentes para navegadores. Con todo esto no queremos asustar a nadie y volvemos a repetir que las diferencias en la actualidad son mínimas, pero sí deseamos que quede clara la necesidad de la estandarización creada por el W3C, responsable de marcar una pauta que actualmente cumplen todos los navegadores modernos de manera bastante fiel.</p>
+			<h2 style="margin: 30px 0;">Los lenguajes de la web</h2>
+			<p style="margin-bottom: 30px;">HTML no está solo como único lenguaje para crear la web, aunque en un principio sí que era así. Su evolución tan anárquica ha supuesto toda una seria de inconvenientes y deficiencias que han debido ser superados con la introducción de otras tecnologías accesorias capaces de organizar, optimizar y automatizar el funcionamiento de las webs. Ejemplos que pueden sonaros son las <a style="color: #36e;" href="https://desarrolloweb.com/articulos/26.php">CSS</a>, o <a style="color: #36e;" href="https://desarrolloweb.com/home/javascript">JavaScript</a>. Veremos más adelante en qué consisten algunas de ellas.</p>
+			<p style="margin-bottom: 30px;">Lo que es importante para el desarrollador es conocer el enfoque de cada lenguaje, para saber cuál es la manera correcta de utilizarlo y cómo se complementan los unos a los otros. No es necesario que se sea experto en todos ellos, pero sí saber qué cosas se deberían hacer con cada cual, para no cometer errores que deriven en una mala interpretación por parte de los navegadores. Así mismo tenemos que pensar que no todas las personas van a acceder a una web a través de un ordenador, sino también de un teléfono o de navegadores especializados para personas con discapacidades, por ejemplo para ciegos. Es por ello que es importante escribir correctamente los lenguajes, respetando los estándares y así cada navegador podrá hacer su mejor papel para representar la pagina lo más correctamente posible.</p>
+			<p>En este manual queremos incidir mucho en este detalle, la correcta utilización del HTML: escribir el contenido, para que nuestro trabajo sea lo más adecuado y de elevada calidad.</p>
+			<h2 style="margin: 30px 0;">Los editores de HTML</h2>
+			<p style="margin-bottom: 30px;">Además del navegador necesario para ver los resultados de nuestro trabajo, necesitamos evidentemente otra herramienta capaz de crear la página en si. Un archivo HTML (una página) no es más que un texto plano al que le colocamos extensión ".html". Es por ello que para programar en HTML necesitamos un editor de texto.</p>
+			<div class="nota" style="background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p><strong>Nota:</strong>  En 2001 cuando escribimos este manual por primera vez recomendábamos probar a comenzar con el <a style="color: #36e;" href="https://desarrolloweb.com/colecciones/editores-codigo">Bloc de notas</a> que viene con Windows. El motivo es que es un programa tan simple que nos permite centrarnos simplemente en el HTML, eliminando todo tipo de ayudas. Hoy preferimos recomendar otras alternativas, aunque hemos dejado esta nota por motivos nostálgicos.</p> 
+			</div>
+			<p style="margin: 30px 0;">Es recomendable usar un editor de textos sencillo, de texto plano. Queremos remarcar que nunca se debe usar el tipo de editor de textos que se usan para escribir documentos, cartas, trabajos para el colegio, como Wordpad o Microsoft Word, pues colocan su propio código especial al guardar los documentos y HTML es <strong>únicamente texto plano,</strong> on lo que podremos tener problemas. Otro tipo de editor que tampoco recomendamos es DreamWeaver, un editor que te escribe el HTML a base de tocar botones, negritas, listas, crear tabla, etc. Para aprender es extremadamente recomendable que se use un programa que te permita escribir el código en crudo, así no tendrás problemas en el futuro.</p>
+			<p style="margin-bottom: 30px;">El tipo de editores que recomendamos son aquellos específicos para la edición de código, los cuales están pensados para facilitar los procesos de la programación y de la escritura de código plano como el del lenguaje HTML. Existen infinidad de editores de código interesantes, que nos aportan más o menos facilidades y que nos permiten aumentar nuestra productividad. No obstante, es aconsejable en un principio utilizar una herramienta lo más sencilla posible para poder prestar la máxima atención a nuestro código y familiarizarnos lo antes posible con él. Siempre tendremos tiempo más delante de pasarnos a editores más versátiles con la consiguiente ganancia de tiempo.</p>
+			<p style="margin-bottom: 30px;">No es posible decir a nadie el editor que debe de usar, porque cada uno tendrá sus preferencias. No obstante, en 2016 y para las personas que están comenzando nosotros recomendamos:</p>
+			<ul style="margin-left: 50px;">
+				<li><a style="color: #36e;" href="https://github.blog/2022-06-08-sunsetting-atom/">Atom</a></li>
+				<li><a style="color: #36e;" href="https://brackets.io/">Brackets</a></li>
+			</ul>
+			<p style="margin: 30px 0;">Igual alguna persona que comience puede pensar que tienen muchas opciones, pero realmente podemos comenzar con lo básico, crear nuevos archivos, editar el código, guardarlos en nuestro disco duro... y punto. Recomendamos estos editores porque están disponibles para todas las plataformas, Windows, Mac y Linux y porque son gratuitos para cualquier uso.</p>
+			<p style="margin-bottom: 30px;">A continuación tienes algunas referencias para ampliar la información, aunque con estas recomendaciones tienes para empezar. Para una referencia más claro todo el tema de editores y los tipos que existen, visita los artículos:</p>
+			<ul style="margin-left: 50px;">
+				<li><a style="color: #36e;" href="https://desarrolloweb.com/articulos/editores-de-html.html">Editores de HTML.</a></li>
+				<li>Si buscas en DesarrolloWeb, en el buscador por "editores", encontrarás muchas otras alternativas.</li>
+			</ul>
+			<h2 style="margin: 30px 0;">HTML es para escribir el contenido</h2>
+			<p style="margin-bottom: 30px;">Volveremos sobre este punto, pues es de vital importancia para entender y usar bien HTML. Graba e tu memoria que HTML es para especificar el contenido de las páginas web y no el aspecto que van a tener.</p>
+			<p style="margin-bottom: 30px;">Cuando nos referimos al contenido queremos indicar párrafos, imágenes, listas, tablas y todo aquello que forma parte de "el qué". Nunca debemos usar HTML para definir cómo se debe de ver un contenido, si el texto debe tener color rojo, con una fuente mayor, o si se debe alinear a la derecha. Para especificar el aspecto que debe tener una web se usa un lenguaje complementario, llamado <a style="color: #36e;" href="https://desarrolloweb.com/home/css">CSS.</a></p>
+			<p>Por tanto, HTML sirve para decir qué contenido debe tener una página y CSS sirve para decir cómo se debe representar tal contenido, con qué estilo. Es fácil saltarse esta regla, porque en HTML existen diversas etiquetas (y atributos, de los que no hemos hablado todavía) que realmente están pensados para definir la presentación. Es una herencia de versiones pasadas del HTML y aunque en este manual se nos pueda saltar alguna vez alguna excepción, no debemos caer en la trampa de usar el HTML para definir cómo debe de representarse un elemento en la página.</p>
+			<h2 style="margin: 30px 0;">Conclusión</h2>
+			<p style="margin-bottom: 30px;">Como has visto, una página es un archivo donde está contenido el código HTML en forma de texto. Estos archivos tienen extensión .html o .htm (es indiferente cuál utilizar). De modo que cuando programemos en HTML lo haremos con un editor de textos y guardaremos nuestros trabajos con extensión .html, por ejemplo mipágina.html</p>
+			<div class="nota" style="background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p><strong>Consejo:</strong> Utiliza siempre la misma extensión en tus archivos HTML. Eso evitará que te confundas al escribir los nombres de tus archivos unas veces con .htm y otras con .html. Cabe remarcar que hoy todo el mundo usa la extensión ".html" y no ".htm"</p> 
+			</div>
+		</div>
+	</div>
+	
+	<div class="dudas" style="background-color: #c9e6fa; padding: 60px 0px;">
+		<div class="content">
+			<h2 style="margin-bottom: 30px; text-align: center;">¿Alguna duda?</h2>
+			<p style="text-align: center; margin-bottom: 30px; ">Pregunta y ayuda en la comunidad con tus respuestas en la <a style="color: #36e;" href="https://desarrolloweb.com/faq">sección de FAQ</a></p>
+			<a style="background-color: #36e; padding: 15px; color: #fff; font-size: 23px; border-radius: 5px; display: block; max-width: 250px; margin: auto;" href="https://desarrolloweb.com/login">Hacer una pregunta</a>
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

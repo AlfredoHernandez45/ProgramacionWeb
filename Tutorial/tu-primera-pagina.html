@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tu primera página</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+		body p {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ul li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body h2 {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		body h3 {
+			font-size: 32px;
+			font-weight: 400;
+		}
+	</style>
+</head>
+<body class="index_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
+		<div class="content">
+			<h1>Tu primera página</h1>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
+		</div>
+	</div>
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
+		<div class="content">
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
+				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
+				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
+				<li><span>></span><a href="index-manual-html.html">Manual de HTML</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="descrip" style="margin-bottom: 50px;">
+		<div class="content">
+			<p style="margin-bottom: 30px;">
+				<b style="font-size: 38px; color: #999; font-weight: 400; line-height: 160%;">Vamos a ver cómo se hace una página muy sencilla en HTML, que sirva de práctica a los debutantes.</b>
+			</p>
+			<p style="margin-bottom: 30px;">Solo hemos comenzado el <a href="index-manual-html.html">Manual de HTML</a>, pero ya podemos hacer un primer ejemplo completo y, sobre todo, correcto. Con lo que sabemos ya casi estamos listos para practicar, aunque todavía tenemos que adquirir algún conocimiento adicional.</p>
+			<p style="margin-bottom: 30px;">No te olvides ahora de practicar, así que usa tu editor de código preferido y crea por tu cuenta los ejercicios que vamos a ir realizando. Recuerda que la práctica es la mejor vía para afianzar los conocimientos.</p>
+			<p>En el anterior artículo ya adelantamos la forma de un documento HTML básico, con sus etiquetas de cabecera y cuerpo. No obstante, aún tenemos que agregar alguna cosa adicional para que todo funcione de la mejor manera.</p>
+			<h2 style="margin: 30px 0;">Doctype</h2>
+			<p style="margin-bottom: 30px;">Reconozco que el "doctype" no es la etiqueta más intuitiva, pero debemos mencionarla ahora porque es el inicio de cualquier archivo HTML. Viene heredada del XML, que es un lenguaje precursor del HTML. En el pasado la etiqueta Doctype era bastante más compleja, pero afortunadamente con la llegada de HTML5 se simplificó para quedar simplemente como esto:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;!DOCTYPE html&gt;
+				</code>		  
+			</pre>
+			<p>No pretendas entenderla mucho, piensa en ella como una ceremonia que debes realizar (algo que debes escribir) al inicio de todo documento HTML.</p>
+			<h2 style="margin: 30px 0;">Juego de caracteres</h2>
+			<p style="margin-bottom: 30px;">El juego de caracteres es otro asunto que puede parecer un poco complejo, pero que tenerlo claro desde el principio te ayudará a no pasar en el futuro por diversos problemas.</p>
+			<p style="margin-bottom: 30px;">Este juego de caracteres, o codificación, depende del sistema operativo que estás usando para crear tu archivo HTML. Mientras que unos sistemas como Linux o Mac usan por defecto un juego de caracteres llamado UTF-8, en Windows se usa de manera predeterminada otro juego de caracteres llamado ISO-8859-1. Parece una información un tanto técnica y fuera de necesidad para introducir ahora que estamos comenzando, pero insistimos que nos ahorrará frustraciones al dar los primeros pasos, pero sobre todo en un futuro.</p>
+			<p style="margin-bottom: 30px;">En HTML5 el juego de caracteres a usar es siempre UTF-8. Por lo que tendremos que tener especial atención si somos usuarios de Windows, para asegurarnos que usamos la codificación correcta. Es otro de los motivos por los que en pasados artículos recomendábamos Brackets o Atom como editores de código, ya que éstos trabajan siempre en UTF-8, independientemente del sistema operativo. Si no estás usando uno de esos editores, te recomendamos hacerlo ahora y si te empeñas en trabajar con tu propio editor infórmate sobre el juego de caracteres que produce y si existe alguna opción o configuración que te asegure usar siempre UTF-8.</p>
+			<p style="margin-bottom: 30px;">Para definir qué juego de caracteres estamos usando en un documento HTML se tiene que escribir una etiqueta en la cabecera de la página, en el HEAD, llamada META. Realmente las etiquetas META las trataremos más adelante, porque sirven para varias cosas interesantes. Pero de momento nos aseguraremos que tenemos esta etiqueta en el head.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;meta charset="UTF-8"&gt;
+				</code>
+			</pre>
+			<p style="margin-bottom: 30px;">Igualmente, no pretendemos hablar mucho de esta etiqueta por el momento, solo que te la tomes como un contrato a cumplir para tener un documento correcto. Te ampliamos esta información en el artículo <a style="color: #36e;" href="https://desarrolloweb.com/articulos/documento-basico-html5-codigo-snippet.html">Documento básico HTML5.</a></p>
+			<h2 style="margin: 30px 0;">Un documento HTML correcto</h2>
+			<p style="margin-bottom: 30px;">A continuación tienes un documento básico con las etiquetas necesarias para comenzar con buen pie.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;!DOCTYPE html&gt;
+					&lt;html lang="en"&gt;
+					&lt;head&gt;
+						&lt;meta charset="UTF-8"&gt;
+						&lt;title&gt;Mi primera página&lt;/title&gt;
+					&lt;/head&gt;
+					&lt;body&gt;
+						&lt;p&gt;&lt;b&gt;Bienvenido,&lt;/b&gt;&lt;/p&gt;
+						&lt;p&gt;Estás en la página &lt;b&gt;Comida para Todos&lt;/b&gt;.&lt;/p&gt;
+						&lt;p&gt;Aquí aprenderás recetas fáciles y deliciosas.&lt;/p&gt;
+					&lt;/body&gt;
+					&lt;/html&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">Puedes copiar y pegarlo en tu editor de código. Ahora guarda ese archivo con extensión .html o .htm en tu disco duro. Para ello accedemos al menú Archivo y seleccionamos la opción Guardar como. En la ventana elegimos el directorio donde deseamos guardarlo y colocaremos su nombre, por ejemplo mi_pagina.html</p>
+			<div class="nota" style="background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Consejo:</strong> Utiliza nombres en tus archivos que tengan algunas normas básicas para ahorrarte disgustos y líos. Nuestro consejo es que no utilices acentos ni espacios ni otros caracteres raros. También te ayudará escribir siempre las letras en minúsculas.<br>
+					Esto no quiere decir que debes hacer nombres de archivos cortos, es mejor hacerlos descriptivos para que te aclaren lo que hay dentro. Algún caracter como el guión "-" o el guión bajo "_" te puede ayudar a separar las palabras. Por ejemplo quienes_somos.html.
+				</p> 
+			</div>
+			<p style="margin: 30px 0;">Con el documento HTML creado, podemos ver el resultado obtenido a partir de un navegador. Es conveniente, llegado a este punto, hacer hincapié en el hecho de que no todos los navegadores son idénticos a la hora de interpretar un documento. Desgraciadamente, los resultados de nuestro código pueden cambiar de uno a otro por lo que resulta aconsejable visualizar la página en varios clientes web. Generalmente se usan Chrome, Internet Explorer y Firefox como referencias ya que son los más extendidos.</p>
+			<p style="margin-bottom: 30px;">A decir verdad, en el momento que estas líneas son escritas, Google Chrome acapara la mayoría de usuarios y Firefox e Internet Explorer/Edge están relegados a un segundo plano. Esto no quiere decir que lo debemos dejar totalmente de lado ya que incluso una minoría que puede proporcionarnos puede resultar muy importante para nosotros.</p>
+			<p style="margin-bottom: 30px;">Ten en cuenta que el archivo debe tener codificación UTF-8, como hemos mencionado antes. Una vez guardado el fichero con extensión .html, para abrir la página en el navegador, simplemente tienes que acceder a la carpeta donde has guardado el archivo y darle un doble clic. Se trata de una tarea sencilla que estamos seguros que podrás realizar. Si no lo consigues, fíjate que la mayoría de los navegadores tienen un menú. En el menú de "Archivo" de tu navegador preferido encontrarás una opción como "Abrir archivo", desde donde también podrás abrir una página realizada por ti con tu editor de código.</p>
+			<p style="margin-bottom: 30px;">Una vez abierto el archivo podréis ver vuestra primera página web. Algo sencillita pero por algo se empieza. Ya veréis como en poco tiempo seremos capaces de mejorar sensiblemente.</p>
+			<p style="margin-bottom: 30px;">Fijaos en la parte superior izquierda de la ventana del navegador. Podréis comprobar la presencia del texto delimitado por la etiqueta TITLE. Esta es una de las funciones de esta etiqueta, cuyo principal cometido es el de servir de referencia en los motores de búsqueda como Google.</p>
+			<p style="margin-bottom: 30px;">Por otro lado, los elementos que colocamos entre la etiqueta BODY, y su cierre, se pueden ver en el espacio reservado para el cuerpo de la página.</p>
+			<p style="margin-bottom: 30px;">Si ahora hacéis click con el botón derecho sobre la página y elegís "Ver código fuente de la página" (o View page source) veréis como en una ventana accesoria aparece el código de nuestro archivo HTML. Este recurso es de extremada importancia, ya que nos permite ver el tipo de técnicas empleadas por otros para la confección de sus páginas.</p>
+			<p style="margin-bottom: 30px;">Con todo esto asimilado ya estamos en condiciones de adentrarnos un poco más en la descripción de algunas de las etiquetas más empleadas del HTML, en los próximos capítulos de este <a style="color: #36e;" href="https://desarrolloweb.com/manuales/manual-html.html">manual de HTML</a>.</p>
+		</div>
+	</div>
+	
+	<div class="dudas" style="background-color: #c9e6fa; padding: 60px 0px;">
+		<div class="content">
+			<h2 style="margin-bottom: 30px; text-align: center;">¿Alguna duda?</h2>
+			<p style="text-align: center; margin-bottom: 30px; ">Pregunta y ayuda en la comunidad con tus respuestas en la <a style="color: #36e;" href="https://desarrolloweb.com/faq">sección de FAQ</a></p>
+			<a style="background-color: #36e; padding: 15px; color: #fff; font-size: 23px; border-radius: 5px; display: block; max-width: 250px; margin: auto;" href="https://desarrolloweb.com/login">Hacer una pregunta</a>
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

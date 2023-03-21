@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atributos para páginas</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+		body p {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ul li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ol li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body h2 {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		body h3 {
+			font-size: 32px;
+			font-weight: 400;
+		}
+	</style>
+</head>
+<body class="index_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
+		<div class="content">
+			<h1>Atributos para páginas</h1>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
+		</div>
+	</div>
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
+		<div class="content">
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
+				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
+				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
+				<li><span>></span><a href="index-manual-html.html">Manual de HTML</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="descrip" style="margin-bottom: 50px;">
+		<div class="content">
+			<p style="margin-bottom: 30px;">
+				<b style="font-size: 37px; color: #999; font-weight: 400; line-height: 160%;">Explicamos una serie de atributos que se aplican de manera global a toda la página, como el color de fondo el del texto, de los enlaces, márgenes, etc.</b>
+			</p>
+			<p style="margin-bottom: 30px;">En este artículo nos metemos de nuevo en el terreno del CSS. Veremos todo tipo de estilos que se pueden aplicar a una página, colores o imágenes de fondo, colores para los enlaces, etc. Todo eso tiene que ir en el CSS. Si estás decidido a <a style="color: #36e;" href="https://desarrolloweb.com/home/css">aprender CSS</a> a continuación de aprender HTML (que deberías), puedes saltarte este texto tranquilamente. Ahora bien, si quieres seguir aprendiendo cosas del HTML y te apetece empezar con lo que sabes a poner un poco de color a la página, lee a continuación.</p>
+			<p style="margin-bottom: 30px;">Las páginas HTML pueden construirse con variedad de atributos que le pueden dar un aspecto a la página muy personalizado. Podemos definir atributos como el color de fondo, el color del texto o de los enlaces. Estos atributos se definen en la etiqueta BODY y, como decíamos son generales a toda la página.</p>
+			<p>Lo mejor para explicar su funcionamiento es verlos uno por uno.</p>
+			<h2 style="margin: 30px 0;">Atributos para fondos</h2>
+			<p style="margin: 30px 0;"><strong>bgcolor:</strong> especificamos un color de fondo para la página. En el <a style="color: #36e;" href="https://desarrolloweb.com/articulos/556.php?manual=21">capítulo anterior</a> y en el <a style="color: #36e;" href="https://desarrolloweb.com/articulos/colores-html.html">taller de los colores y HTML</a> hemos aprendido a construir cualquier color, con su nombre o su valor RGB. El color de fondo que podemos asignar con bgcolor es un color plano, es decir el mismo para toda la superficie del navegador.</p>
+			<p style="margin-bottom: 30px;"><strong>background:</strong> sirve para indicar la colocación de una imagen como fondo de la página. La imagen se coloca haciendo un mosaico, es decir, se repite muchas veces hasta ocupar todo el espacio del fondo de la página. En capítulos más adelante veremos como se insertan imágenes con HTML y los tipos de imágenes que se pueden utilizar.</p>
+			<h2 style="margin: 30px 0;">Ejemplo de fondo</h2>
+			<p style="margin-bottom: 30px;">Vamos a colocar esta imagen como fondo en la página.</p>
+			<img src="https://desarrolloweb.com/articulos/images/html/fondo.jpg" alt="fondo" loading="lazy">
+			<p style="margin: 30px 0;">La imagen se llama fondo.jpg. Puedes guardarla en tu disco duro para practicar tú también con ella, mediante un clic con el botón derecho. Para trabajar con esta imagen vamos a colocarla en la misma carpeta donde está el HTML donde vamos a trabajar. Más adelante también hablaremos sobre cómo acceder a otros archivos que están en otras carpetas, mediante la composición de rutas un poco más complejas, pero por el momento suponemos que la imagen se encuentra en el mismo directorio que la página.</p>
+			<p style="margin-bottom: 30px;">Para colocar esta imagen como fondo de mosaico, se escribiría la siguiente etiqueta BODY.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;body background="fondo.jpg"&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">Se puede ver el efecto que daría en la siguiente imagen como fondo.</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3862.jpg" alt="fondo con texto" loading="lazy">
+			<div class="nota" style="margin-top: 30px; background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Consejo:</strong> Siempre que coloquemos una imagen de fondo, debemos poner también un color de fondo cercano al color de la imagen. <br><br>
+					Esto se debe a que, al colocar una imagen de fondo, el texto de la página debemos colocarlo en un color que contraste suficientemente con dicho fondo. Si el visitante no puede ver el fondo por cualquier cuestión (Por ejemplo tener desactivada la carga de imágenes) puede que el texto no contraste lo suficiente con el color de fondo por defecto de la web. <br><br>
+					Creo que lo mejor será poner un ejemplo. Si la imagen de fondo es oscura, tendremos que poner un texto claro para que se pueda leer. Si el visitante que accede a la página no ve la imagen de fondo, le saldrá el fondo por defecto, que generalmente es blanco, de modo que al tener un texto con color claro sobre un fondo blanco, nos pasará que no podremos leer el texto convenientemente. <br><br>
+					Ocurre parecido cuando se está cargando la página. Si todavía no ha llegado a nuestro sistema la imagen de fondo, se verá el fondo que hayamos seleccionado con bgcolor y es interesante que sea parecido al color de la imagen para que se pueda leer el texto mientras se carga la imagen de fondo.
+				</p> 
+			</div>
+			<h2 style="margin: 30px 0;">Color del texto</h2>
+			<p style="margin-bottom: 30px;"><strong>text:</strong> este atributo sirve para asignar el color del texto de la página. Por defecto es el negro.</p>
+			<p style="margin-bottom: 30px;">Además del color del texto, tenemos tres atributos para asignar el color de los enlaces de la página. Ya debemos saber que los enlaces deben diferenciarse del resto del texto de la página para que los usuarios puedan identificarlos fácilmente. Para ello suelen aparecer subrayados y con un color más vivo que el texto. Los tres atributos son los siguientes:</p>
+			<p style="margin-bottom: 30px;"><strong>link:</strong> el color de los enlaces que no han sido visitados. (por defecto es azul clarito)</p>
+			<p style="margin-bottom: 30px;"><strong>vlink:</strong> el color de los enlaces visitandos. La "v" viene justamente de la palabra visitado. Es el color que tendrán los enlaces que ya hemos visitado. Por defecto su color es morado. Este color debería ser un poco menos vivo que el color de los enlaces normales.</p>
+			<p><strong>alink:</strong> es el color de los enlaces activos. Un enlace está activo en el preciso instante que se pulsa. A veces es difícil darse cuenta cuando un enlace está activo porque en el momento en el que se activa es porque lo estamos pulsando y en ese caso el navegador abandonará la página rápidamente y no podremos ver el enlace activo más que por unos instantes mínimos.</p>
+			<h2 style="margin: 30px 0;">Ejemplo de color del texto</h2>
+			<p style="margin-bottom: 30px;">Vamos a ver una página donde el color de fondo sea negro, y los colores del texto y los enlaces sean claros. Pondremos el color de texto balnco y los enlaces amarillos, más resaltados los que no estén visitados y menos resaltados lo que ya están visitados. Para ello escribiríamos la etiqueta BODY así:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;body bgcolor="#000000" text="#ffffff" link="#ffff33" alink="#ffffcc" vlink="ffff00"&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">El efecto de esta definición de colores para la página se vería de la siguiente manera.</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3862.jpg" alt="fondo con texto" loading="lazy">
+			<h2 style="margin: 30px 0;">Márgenes</h2>
+			<p style="margin-bottom: 30px;">Con otros atributos de la etiqueta BODY se pueden asignan espacios de margen en las páginas, lo que es muy útil para eliminar los márgenes en blanco que aparecen a los lados, arriba y debajo de la página. Estos atributos son distintos para Internet Explorer y para otros navegadores, por lo que debemos utilizarlos todos si queremos que todos los clientes web los interpreten perfectamente.</p>
+			<p style="margin-bottom: 30px;"><strong>leftmargin:</strong> para indicar el margen a los lados de la página. Válido para iexplorer.</p>
+			<p style="margin-bottom: 30px;"><strong>topmargin:</strong> para indicar el margen arriba y debajo de la página. Para iexplorer.</p>
+			<p style="margin-bottom: 30px;"><strong>marginwidth:</strong> la contrapartida de leftmargin para Firefox. (Margen a los lados)</p>
+			<p style="margin-bottom: 30px;"><strong>marginheight:</strong> igual que topmargin, pero para Firefox. (Margen arriba y abajo)</p>
+			<p style="margin-bottom: 30px;">Tenemos un artículo sobre la utilización de estos atributos para hacer <a style="color: #36e;" href="https://desarrolloweb.com/articulos/10.php">diseños avanzados con tablas en distintas definiciones de pantalla</a>, que puede ser interesante de leer.</p>
+			<p style="margin-bottom: 30px;">Un ejemplo de página sin margen es la propia página de DesarrolloWeb.com, que estás visitando actualmente. (Por lo menos a la hora de escribir este artículo) Además, vamos a ver otra página sin márgenes, por si alguien necesita ver el ejemplo en estas líneas.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 bgcolor="ffffff"&gt;
+					&lt;table width=100% bgcolor=ff6666&gt;&lt;tr&gt;&lt;td&gt;
+					&lt;h1&gt;Hola amigos&lt;/h1&gt;
+					&lt;br&gt;
+					&lt;br&gt;
+					Gracias por visitarme! 
+					&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+					&lt;/body&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">Esta página tiene el fondo blanco y dentro una tabla con el fondo rojo. En la página podremos ver que la tabla ocupa el espacio en la página sin dejar sitio para ningún tipo de margen.</p>
+			<p>Todo lo que hemos visto hasta ahora en el <a style="color: #36e;" href="https://desarrolloweb.com/manuales/manual-html.html">Manual de HTML</a> lo podemos encontrar en vídeo y en concreto las explicaciones de los últimos artículos se han recogido en el <a style="color: #36e;" href="https://desarrolloweb.com/articulos/videotutorial-html-fuente-color-estilo.html">Vídeotutorial de HTML - Fuentes, colores y estilos de BODY</a>.</p>
+			<h2 style="margin: 30px 0;">Por qué todos estos estilos deberían definirse en CSS</h2>
+			<p style="margin-bottom: 30px;">Como hemos dicho, todos estos estilos deberían indicarse en el CSS. Existen muchos motivos para ello pero uno de ellos seguro que ahora se podrá comprender. Imagina un sitio web con 30 páginas distintas (no tiene que ser muy grande para llegar a ese número). Imagina que llegado un día te cansas del color negro de fondo y lo quieres azul, y el color de los enlaces amarillo y lo quieres verde. Si tienes los estilos en el HTML tendrías que ir, página a página, cambiando los estilos "n" veces.</p>
+			<p style="margin-bottom: 30px;">CSS, entre otras cosas, te permite tener los estilos definidos en un único lugar, un archivo con código en texto plano, y todas las páginas de tu sitio web usarían ese mismo archivo para definir su presentación. Así, si un día te cansas del color de fondo, el color del texto, el tipo de letra o su tamaño, entonces solo tienes que ir a un único lugar (el archivo CSS) y cambiarlo una única vez.</p>
+			<p style="margin-bottom: 30px;">Todo eso lo veremos con detalle en el <a style="color: #36e;" href="https://desarrolloweb.com/manuales/manual-css-hojas-de-estilo.html">Manual de CSS</a>.</p>
+		</div>
+	</div>
+	
+	<div class="dudas" style="background-color: #c9e6fa; padding: 60px 0px;">
+		<div class="content">
+			<h2 style="margin-bottom: 30px; text-align: center;">¿Alguna duda?</h2>
+			<p style="text-align: center; margin-bottom: 30px; ">Pregunta y ayuda en la comunidad con tus respuestas en la <a style="color: #36e;" href="https://desarrolloweb.com/faq">sección de FAQ</a></p>
+			<a style="background-color: #36e; padding: 15px; color: #fff; font-size: 23px; border-radius: 5px; display: block; max-width: 250px; margin: auto;" href="https://desarrolloweb.com/login">Hacer una pregunta</a>
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

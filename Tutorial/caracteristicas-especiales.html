@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caracteres especiales</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+		body p {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ul li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ol li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body h2 {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		body h3 {
+			font-size: 32px;
+			font-weight: 400;
+		}
+	</style>
+</head>
+<body class="index_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
+		<div class="content">
+			<h1>Caracteres especiales</h1>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
+		</div>
+	</div>
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
+		<div class="content">
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
+				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
+				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
+				<li><span>></span><a href="index-manual-html.html">Manual de HTML</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="descrip" style="margin-bottom: 50px;">
+		<div class="content">
+			<p style="margin-bottom: 30px;">
+				<b style="font-size: 37px; color: #999; font-weight: 400; line-height: 160%;">Una referencia útil, y una lista completa de los caracteres especiales del HTML.</b>
+			</p>
+			<p style="margin-bottom: 30px;">En este artículo vamos a ver un tópico de frecuente consulta cuando se está aprendiendo a construir una página web. Son los caracteres especiales, unos códigos propios del lenguaje HTML que son capaces de entender los navegadores y que nos sirven para representar ciertos símbolos.</p>
+			<p style="margin-bottom: 30px;">La necesidad de la existencia de los caracteres especiales responde a dos motivos que explicaremos a continuación, remarcando cuál de ellos es importante en la actualidad y por qué (actualizado en octubre de 2016). Al final del artículo también encontrarás unas tablas con un amplio conjunto de caracteres especiales y sus códigos, para que te sirva de referencia.</p>
+			<p>Luego entraremos en detalles, pero para ir viendo un ejemplo, la <strong>"á"</strong> (a minúscula acentuada) se escribe <b>"&aacute ;"</b> de modo que la palabra página se podría escribir en una página HTML de este modo: p&aacute ;gina.</p>
+			<h2 style="margin: 30px 0;">Por qué existen los caracteres especiales</h2>
+			<p style="margin-bottom: 30px;">Los motivos por los que debemos usar los caracteres especiales son los siguientes:</p>
+			<ol style="margin: 0 0 30px 30px;">
+				<li>Una página web se ha de ver en países distintos, que usan conjuntos de caracteres distintos. El lenguaje HTML nos ofrece un mecanismo por el que podemos estar seguros que una serie de caracteres "raros" se van a ver bien en todos los ordenadores del mundo, independientemente de su juego de caracteres local.</li>
+				<li>Por otra parte, ciertos caracteres forman parte de las etiquetas como el "mayor qué" o "menor qué" que las delimitan. Mediante los caracteres especiales se definen unos códigos, que debemos usar cuando queremos poner uno de estos caracteres en una página,</li>
+			</ol>
+			<p style="margin-bottom: 30px;">De estos dos motivos, es verdaderamente importante el segundo, que es un asunto derivado del propio HTML y sus necesidades de codificación. Pero el primer motivo, aunque fue importante, hoy no lo es tanto porque la recomendación es usar UTF-8 y éste juego de caracteres sí que permite representar cualquiera de los símbolos que iremos a necesitar normalmente (todos los acentos, eñe, símbolo del Euro, etc.).</p>
+			<h2 style="margin: 30px 0;">Caracteres especiales básicos</h2>
+			<p style="margin-bottom: 30px;">Estos son los caracteres especiales que se usan en HTML para no confundir un principio o final de etiqueta, unas comillas o un & con su correspondiente caracter.</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3841.jpg" alt="caracteristicas basicas" loading="lazy">
+			<h2 style="margin: 30px 0;">Caracteres especiales del HTML 2.0</h2>
+			<p style="margin-bottom: 30px;">Ahora vamos a ver caracteres especiales, aunque muchos de ellos están disponibles en UTF-8, por lo que, si respetamos las recomendaciones de HTML5 para los juegos de caracteres, no necesitamos realmente utilizarlos.</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3842.jpg" alt="caracteristicas especiales" loading="lazy">
+			<h2 style="margin: 30px 0;">Caracteres especiales del HTML 3.2</h2>
+			<img src="https://desarrolloweb.com/archivoimg/general/3843.jpg" alt="caracteres especiales 3.2">
+			<h2 style="margin: 30px 0;">Otros caracteres especiales</h2>
+			<img src="https://desarrolloweb.com/archivoimg/general/3844.jpg" alt="otros caracteres especiales">
+			<div class="nota" style="margin-top: 30px; background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Referencia:</strong> Hay un videotutorial en DesarrolloWeb.com que trata sobre <a style="color: #36e;" href="https://desarrolloweb.com/articulos/videotutorial-html-enlaces.html">enlaces y caracteres especiales</a>. No son temas muy relacionados entre si, pero seguro que nos sirve como práctica para aprender todo lo que se ha tratado en este artículo.
+				</p> 
+			</div>
+		</div>
+	</div>
+	
+	<div class="dudas" style="background-color: #c9e6fa; padding: 60px 0px;">
+		<div class="content">
+			<h2 style="margin-bottom: 30px; text-align: center;">¿Alguna duda?</h2>
+			<p style="text-align: center; margin-bottom: 30px; ">Pregunta y ayuda en la comunidad con tus respuestas en la <a style="color: #36e;" href="https://desarrolloweb.com/faq">sección de FAQ</a></p>
+			<a style="background-color: #36e; padding: 15px; color: #fff; font-size: 23px; border-radius: 5px; display: block; max-width: 250px; margin: auto;" href="https://desarrolloweb.com/login">Hacer una pregunta</a>
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

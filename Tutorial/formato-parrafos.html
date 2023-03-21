@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formato de párrafos en HTML</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+		body p {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ul li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body h2 {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		body h3 {
+			font-size: 32px;
+			font-weight: 400;
+		}
+	</style>
+</head>
+<body class="index_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
+		<div class="content">
+			<h1>Formato de párrafos en HTML</h1>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
+		</div>
+	</div>
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
+		<div class="content">
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
+				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
+				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
+				<li><span>></span><a href="index-manual-html.html">Manual de HTML</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="descrip" style="margin-bottom: 50px;">
+		<div class="content">
+			<p style="margin-bottom: 30px;">
+				<b style="font-size: 38px; color: #999; font-weight: 400; line-height: 160%;">Cómo colocar párrafos y saltos de línea en páginas web. También vemos los encabezados como párrafos que sirven de titulo.</b>
+			</p>
+			<p style="margin-bottom: 30px;">En los capítulos anteriores hemos presentado a título de ejemplo algunas etiquetas que permiten dar formato a nuestro texto. En este capitulo veremos con más detalle las más ampliamente utilizadas y ejemplificaremos algunas de ellas posteriormente.</p>
+			<p style="margin-bottom: 30px;">Formatear un texto pasa por tareas tan evidentes como definir los párrafos, justificarlos, introducir viñetas, numeraciones o bien poner en negrita, itálica...</p>
+			<p style="margin-bottom: 30px;">Hemos visto que para definir los párrafos nos servimos de la etiqueta P que introduce un salto y deja una línea en blanco antes de continuar con el resto del documento.</p>
+			<p style="margin-bottom: 30px;">Podemos también usar la etiqueta BR, de la cual no existe su cierre correspondiente (/BR), para realizar un simple retorno de carro con lo que no dejamos una línea en blanco sino que solo cambiamos de línea.</p>
+			<div class="nota" style="background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p><strong>Nota:</strong> Existen otras etiquetas que no tienen su correspondiente de cierre, como IMG para las imágenes, que veremos más adelante. Esto ocurre porque un salto de línea o una imagen no empiezan y acaban más adelante sino que sólo tienen presencia en un lugar puntual.</p> 
+			</div>
+			<p style="margin: 30px 0;">Podéis comprobar que cambiar de línea en nuestro documento HTML sin introducir alguna de estas u otras etiquetas no implica en absoluto un cambio de línea en la página visualizada. En realidad el navegador introducirá el texto y no cambiara de línea a no ser que esta llegue a su fin o bien lo especifiquemos con la etiqueta correspondiente.</p>
+			<p style="margin-bottom: 30px;">Los párrafos delimitados por etiquetas P pueden ser fácilmente justificados a la izquierda, centro o derecha especificando dicha justificación en el interior de la etiqueta por medio de un atributo "align". Un atributo no es más que un parámetro incluido en el interior de la etiqueta que ayuda a definir el funcionamiento de la etiqueta de una forma más personalizada. Veremos a lo largo de este manual cantidad de atributos muy útiles para todo tipo de etiquetas.</p>
+			<div class="nota" style="background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p><strong>Nota:</strong> Ten muy en cuenta lo siguiente, que ya hemos comentado anteriormente. <strong>El HTML se usa para definir el contenido</strong>. Por tanto, los atributos align que vamos a conocer a continuación se están metiendo a una parcela que no le corresponde al HTML, porque están definiendo la forma con la que un párrafo debe de representarse, su estilo, y no el contenido. Es importante señalarlo para que aprendas que estas cosas se deben hacer mediante el lenguaje <a style="color: #36e;" href="https://desarrolloweb.com/home/css">CSS</a>, que sirve para definir el estilo, la forma. En la revisión de este texto en 2016 hemos decidido mantener estos ejemplos, a pesar que no es el uso más correcto del HTML, porque así nos sirve para introducir los atributos de las etiquetas, que no hemos visto hasta ahora. No obstante, tú lo tendrás en cuenta cuando realices tus páginas y <a style="color: #36e;" href="https://desarrolloweb.com/manuales/manual-css-hojas-de-estilo.html">aprenderás CSS</a> para ver cómo se deben de aplicar estos formatos.</p> 
+			</div>
+			<p style="margin: 30px 0;">Así, si deseásemos introducir un <strong>texto alineado a la izquierda</strong> escribiríamos:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;p align="left"&gt;Texto alineado a la izquierda&lt;/p&gt;
+				</code>		  
+			</pre>
+			<p style="margin: 30px 0;">Para una <strong>justificación al centro:</strong></p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;p align="center"&gt;Texto alineado al centro&lt;/p&gt;
+				</code>		  
+			</pre>
+			<p style="margin: 30px 0;">Para <strong>alinear a la derecha:</strong></p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;p align="right"&gt;Texto alineado a la derecha&lt;/p&gt;
+				</code>		  
+			</pre>
+			<p style="margin: 30px 0;">Los anteriores párrafos con sus alineaciones se verían más o menos así:</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3827.png" alt="alineaciones" loading="lazy">
+			<p style="margin: 30px 0;">Como veis, en cada caso el atributo align toma determinados valores que son escritos entre comillas. En algunas ocasiones necesitamos especificar algunos atributos para el correcto funcionamiento de la etiqueta. En otros casos, el propio navegador toma un valor definido por defecto. Para el caso de align, el valor por defecto es left.</p>
+			<div class="nota" style="background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Nota:</strong> Los atributos tienen sus valores indicados entre comillas ("), pero si no los indicamos entre comillas también funcionará en la mayoría de los casos. Sin embargo, es aconsejable que pongamos siempre las comillas para acostumbrarnos a utilizarlas, por dar homogeneidad a nuestros códigos y para evitar errores futuros en sistemas más quisquillosos.
+				</p> 
+			</div>
+			<p style="margin: 30px 0;">El atributo align no es exclusivo de la etiqueta P. Otras etiquetas muy comunes, que veremos más adelante, entre las cuales se introducen texto o imágenes, suelen hacer uso de este atributo de una forma habitual.</p>
+			<p style="margin-bottom: 30px">Imaginemos un texto relativamente largo donde todos los párrafos están alineados a la izquierda (por ejemplo). Una forma de simplificar nuestro código y de evitar introducir continuamente el atributo align sobre cada una de nuestras etiquetas es utilizando la etiqueta DIV.</p>
+			<p style="margin-bottom: 30px">Esta etiqueta, DIV, por si sola no sirve para nada, salvo producir un salto de línea simple. Para que realmente se vea tiene que estar acompañada de algún estilo definido en el CSS o de atributos del HTML como align y lo que nos permite es alinear cualquier elemento (párrafo o imagen) de la manera que nosotros deseemos.</p>
+			<p style="margin-bottom: 30px">Así, el código:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;p align="left"&gt;Parrafo1&lt;/p&gt;
+					&lt;p align="left"&gt; Parrafo3&lt;/p&gt;
+					&lt;p align="left"&gt; Parrafo2&lt;/p&gt;
+				</code>		  
+			</pre>
+			<p style="margin: 30px 0;">es equivalente a:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;div align="left"&gt;
+					&lt;p&gt;Parrafo1&lt;/p&gt;
+					&lt;p&gt;Parrafo2&lt;/p&gt;
+					&lt;p&gt;Parrafo3&lt;/p&gt;
+					&lt;/div&gt;
+				</code>		  
+			</pre>
+			<div class="nota" style="margin: 30px 0; background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Nota:</strong> Recuerda que align tampoco sería correcto de usar en una etiqueta DIV, por el mismo motivo que no sería correcto de usar en un párrafo. Nos sirve para conocer facetas del HTML, que antes se usaban más y nos han quedado heredadas en las versiones actuales del lenguaje.
+				</p> 
+			</div>
+			<p>Como hemos visto, la etiqueta DIV marca divisiones en las que definimos un bloque de contenido, y a los que podríamos aplicar estilo de manera global, aunque lo correcto sería aplicar ese estilo del lado del CSS.</p>
+			<h2 style="margin: 30px 0;">Ejemplo práctico:</h2>
+			<p style="margin-bottom: 30px;">Para practicar un poco lo que acabamos de ver vamos a proponer un ejercicio que podéis resolver en vuestros ordenadores. Simplemente queremos construir una página que tenga, por este orden:</p>
+			<p style="margin-bottom: 30px;">2 Párrafos centrados <br> 3 Párrafos alineados a la derecha <br> Un salto de línea triple <br> 1 párrafo alineado a la izquierda</p>
+			<p style="margin-bottom: 30px;">El código fuente del ejercicio, con lo que sabemos hasta ahora, podría tener la siguiente forma:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em; overflow-x: scroll;">
+				<code style="font-size: 23px;">
+				  &lt;div align="right"&gt;
+					&lt;p&gt;Que son los buscadores que no tienen porque mantener un índice y que tienen robots que constantemente recorren Internet en busca de nuevas páginas para incluirlas en el buscador.&lt;/p&gt;
+					&lt;p&gt;Imaginemos un texto relativamente largo donde todos los párrafos están alineados a la izquierda (por ejemplo).&lt;/p&gt;
+					&lt;p&gt;Que son los buscadores que no tienen porque mantener un índice y que tienen robots que constantemente recorren Internet en busca de nuevas páginas para incluirlas en el buscador. Estos buscadores suelen tener un formulario accesible desde la página inicial, con el enlace correspondiente. No hay que navegar las categorías para acceder al formulario.&lt;/p&gt;
+				  &lt;/div&gt;
+				  &lt;br&gt;
+				  &lt;br&gt;
+				  &lt;br&gt;
+				  &lt;p&gt;Esto es que acaba... hasta luego...&lt;/p&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">Al verlo en un navegador obtendríamos un resultado como el que sigue:</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3828.png" alt="image" loading="lazy">
+			<h2 style="margin: 30px 0;">Encabezados</h2>
+			<p style="margin-bottom: 30px;">Existen otras etiquetas para definir párrafos especiales, que harán las veces de títulos. Son los encabezados o headings en inglés. Como decimos, son etiquetas que formatean el texto como un titular, pero el hecho de que cambien el formato no es lo que nos tiene que preocupar, sino el significado en sí de la etiqueta. Es cierto que los navegadores asignan un tamaño mayor de letra y colocan el texto en negrita, pero lo importante es que sirven para definir la estructura del contenido de un documento HTML. Así los navegadores para ciegos podrán informar a los invidentes que esta es una división nueva de contenido y que su titular es este o aquel. También motores de búsqueda sabrán interpretar mejor el contenido de una página en función de los titulares y subtitulares.</p>
+			<p style="margin-bottom: 30px;">Hay varios tipos de encabezados, que se diferencian visualmente en el tamaño de la letra que utilizan. La etiqueta en concreto es la H1, para los encabezados más grandes, H2 para los de segundo nivel y así hasta H6 que es el encabezado más pequeño. Pero lo importante, insistimos es la estructura que denotan. Una página tendrá generalmente un encabezado de nivel 1 y dentro varios de nivel 2. Luego, dentro de los H2 encontraremos si acaso H3, etc. Nunca debemos usar los encabezados porque nos formateen el texto de una manera dada, sino porque nuestro documento lo requiera según su estructura.</p>
+			<p style="margin-bottom: 30px;">Los encabezados implican también una separación en párrafos, así que todo lo que escribamos dentro de H1 y su cierre (o cualquier otro encabezado) se colocará en un párrafo independiente.</p>
+			<p style="margin-bottom: 30px;">Podemos ver cómo se presentan algunos encabezados a continuación.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code style="font-size: 23px;">
+					&lt;h1&gt;Encabezado de nivel 1&lt;/h1&gt;
+				</code>		  
+			</pre>
+			<p style="margin: 30px 0;">Los encabezados, como otras etiquetas de HTML, soportan el atributo align. Vemos un ejemplo de encabezado de nivel 2 alineado al centro, aunque repetimos que esta formatación debería hacerse en CSS.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code style="font-size: 23px;">
+					&lt;h2 align="center"&gt;Encabezado de nivel 2&lt;/h2&gt;
+				</code>		  
+			</pre>
+			<p style="margin: 30px 0;">Los encabezados se verán de esta manera en la página:</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3829.png" alt="titulos">
+			<p style="margin: 30px 0;">Otro ejercicio interesante es construir una página web que contenga todos los encabezados posibles. Se puede ver a continuación.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code style="font-size: 23px;">
+					&lt;html&gt;
+					  &lt;head&gt;
+						&lt;title&gt;headings&lt;/title&gt;
+					  &lt;/head&gt;
+					  &lt;body&gt;
+						&lt;h1&gt;Encabezado de nivel 1&lt;/h1&gt;
+						&lt;h2&gt;Encabezado de nivel 2&lt;/h2&gt;
+						&lt;h3&gt;Encabezado de nivel 3&lt;/h3&gt;
+						&lt;h4&gt;Encabezado de nivel 4&lt;/h4&gt;
+						&lt;h5&gt;Encabezado de nivel 5&lt;/h5&gt;
+						&lt;h6&gt;Encabezado de nivel 6&lt;/h6&gt;
+					  &lt;/body&gt;
+					&lt;/html&gt;
+				  </code>
+			</pre>
+		</div>
+	</div>
+	
+	<div class="dudas" style="background-color: #c9e6fa; padding: 60px 0px;">
+		<div class="content">
+			<h2 style="margin-bottom: 30px; text-align: center;">¿Alguna duda?</h2>
+			<p style="text-align: center; margin-bottom: 30px; ">Pregunta y ayuda en la comunidad con tus respuestas en la <a style="color: #36e;" href="https://desarrolloweb.com/faq">sección de FAQ</a></p>
+			<a style="background-color: #36e; padding: 15px; color: #fff; font-size: 23px; border-radius: 5px; display: block; max-width: 250px; margin: auto;" href="https://desarrolloweb.com/login">Hacer una pregunta</a>
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

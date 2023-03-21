@@ -5,22 +5,447 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Manual de HTML</title>
-	<link rel="stylesheet" href="css/mainstyle.css">
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+	</style>
 </head>
 <body class="index_manual">
-	<div class="title_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
 		<div class="content">
 			<h1>Manual de HTML</h1>
-			<a href="https://desarrolloweb.com/home/html">HTML</a>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
 		</div>
 	</div>
-	<div class="nav_bar">
+	
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+		.nav_bar ul li b {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
 		<div class="content">
-			<ul>
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
 				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
 				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
-				<li><span>></span><a href="https://desarrolloweb.com/manuales/manual-html.html">Manual de HTML</a></li>
+				<li><span>></span><b>Manual de HTML</b></li>
 			</ul>
+		</div>
+	</div>
+
+	<div class="descrip">
+		<div class="content">
+			<div class="flex_descrip" style="display: flex;">
+				<div class="flex_text" style="width: 100%; max-width: 534px;">
+					<p style="font-size: 19px; line-height: 160%;">
+						El <strong>Manual de HTML</strong> te enseña a trabajar con el lenguaje de marcación que sirve para construir las páginas web. 
+						HTML es el primer paso que debería completar cualquier persona que quiera dedicarse al desarrollo de web en general. 
+						Es además un conocimiento recomendado para cualquier persona que trabaje en el medio Internet.
+						<br><br>
+						Este es un manual con bastante detalle, que empieza en el conocimiento más básico y recorre cada uno de los elementos que se pueden usar para construir todo tipo de contenido en una web, repasando las etiquetas disponibles en el lenguaje. 
+						Las distintas secciones del manual de HTML te llevarán desde la creación de contenido básico como párrafos o listas, hasta el trabajo con formularios, tablas y otros elementos más complejos.
+						<br><br>
+						En el Manual de HTML aprenderás a trabajar con todo el conjunto de etiquetas que existen en este lenguaje, pero además a entender cuáles son los mecanismos habituales para construir páginas web, adaptadas a las costumbres más actuales.
+						<br><br>
+						La segunda parte del manual está dedicada a las novedades que llegaron con HTML 5, explorando etiquetas semánticas, nuevos elementos del formulario, cómo extender compatibilidad a navegadores antiguos y mucho más.
+						<br><br>
+						Este manual lo hemos actualizado completamente en 2016, haciendo un repaso completo a todos los artículos y eliminando las partes de HTML que ya se han quedado en desuso, así como para incorporar nuevas informaciones importantes a día de hoy, buenas prácticas aconsejables, etc. 
+						Estamos seguros que aprender el lenguaje de marcación con este manual de HTML será una experiencia agradable y además actualizada a las corrientes actuales.
+					</p>
+				</div>
+				<div class="flex_image" style="margin-left: 20px;">
+					<div class="image" style="display: block; margin: auto; width: 100%; max-width: 454px;">
+						<img src="https://desarrolloweb.com/storage/manual_images/v9KWpJmKyGROdRlde8BzFKQLumRHunXmUJfwU66X.jpg" alt="html" loading="lazy" style="margin: auto;">
+					</div>
+					<div class="link_compartir" style="margin-top: 30px; background-color: rgb(240, 240, 240); text-align: center; padding: 15px 0; border-radius: 20px;">
+						<span style="font-size: 17px; font-weight: 600;">Comparte el manual! que fluya el conocimiento!</span>
+						<div class="links_image" style="margin-top: 15px; display: flex; justify-content: center; gap: 20px;">
+							<a href="https://www.facebook.com/dialog/share?app_id=928977633900253&href=https://desarrolloweb.com/manuales/manual-html.html&display=page&title=Manual+de+HTML"><img src="" alt="">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png" alt="facebook" loading="lazy" style="width: 40px;">
+							</a>
+							<a href="https://twitter.com/intent/tweet?url=https://desarrolloweb.com/manuales/manual-html.html&text=Manual+de+HTML">
+								<img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png" alt="twitter" loading="lazy" style="width: 40px;">
+							</a>
+							<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://desarrolloweb.com/manuales/manual-html.html&summary=Manual+de+HTML">
+								<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" loading="lazy" style="width: 40px;">
+							</a>
+							<a href="https://wa.me/?text=Manual+de+HTML+https%3A%2F%2Fdesarrolloweb.com%2Fmanuales%2Fmanual-html.html">
+								<img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="whatsapp" loading="lazy" style="width: 40px;">
+							</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="parte-uno-manual" style="padding-top: 60px;">
+        <div class="content">
+            <div class="apartado" style="background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
+                <h3 style="font-size: 1.2em; margin-bottom: 10px; color: #0277bd;">Parte 1:</h3>
+                <h2 style="font-size: 2em; font-weight: 300px; color: #0277bd;">Manual de HTML</h2>
+            </div>
+        </div>
+    </div>
+    <div class="encuentras" style="padding-top: 60px;">
+        <div class="content">
+            <div class="encuentras-naranja" style="background-color: #ef6c00!important; padding: 20px; border-radius: 20px;">
+                <h2 style="color: #fff; font-weight: 400;">En Manual de HTML encuentras:</h2>
+				<a href="#introduccion" style="color: #fff; font-size: 20px;"> > Introducción a HTML</a><br>
+				<a href="#formatos" style="color: #fff; font-size: 20px;"> > Formatos básicos con HTML</a><br>
+				<a href="#lista" style="color: #fff; font-size: 20px;"> > Listas en HTML</a><br>
+				<a href="#enlaces" style="color: #fff; font-size: 20px;"> > Todo sobre los enlaces en HTML</a><br>
+				<a href="#img_grafo" style="color: #fff; font-size: 20px;"> > Imágenes y formatos gráficos</a><br>
+				<a href="#tablas" style="color: #fff; font-size: 20px;"> > Tablas en HTML</a><br>
+				<a href="#formularios" style="color: #fff; font-size: 20px;"> > Formularios en HTML</a><br>
+				<!-- <a href="#introduccion" style="color: #fff; font-size: 20px;"> > Otras etiquetas y nuevos estándares del HTML</a><br>
+				<a href="#introduccion" style="color: #fff; font-size: 20px;"> > Optimización de la página web</a><br> -->
+            </div>
+        </div>
+    </div>
+	<div class="articulos">
+		<div class="content">
+			<h2>Artículos del manual</h2>
+			<div id="introduccion" class="item-articulo">
+				<h2>Introducción a HTML</h2>
+				<p>Introducción al manual de HTML y al lenguaje de modelado de páginas web. Veremos qué es HTML y las primeras nociones que nos ayudarán a realizar las primeras pruebas de creación de una página web sencilla.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">1.</i>
+						<a href="protocolo-manual.html"><b style="color: #0277bd;">Prólogo al manual de HTML</b></a>
+						<p>Cuál es el enfoque y contenido de este Manual de HTML, a quién va dirigido, así como  lecturas y materiales aconsejados para sacarle todo el provecho.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">2.</i>
+						<a href="introduccion-html.html"><b style="color: #0277bd;">Introducción a HTML</b></a>
+						<p>Las primeras cosas que debes saber sobre HTML: historia, objetivos y demás conocimientos donde sentar las bases del manual.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">3.</i>
+						<a href="sintaxis-html.html"><b style="color: #0277bd;">Sintaxis del HTML</b></a>
+						<p>Descripción de la sintaxis con la que se trabaja en el lenguaje HTML, así como la estructura que tendrá el documento básico HTML.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">4.</i>
+						<a href="tu-primera-pagina.html"><b style="color: #0277bd;">Tu primera página</b></a>
+						<p>Las primeras cosas que debes saber sobre HTML: historia, objetivos y demás conocimientos donde sentar las bases del manual.</p>
+					</li>
+				</ol>
+			</div>
+			<div id="formatos" class="item-articulo">
+				<h2>Formatos básicos con HTML</h2>
+				<p>Cómo realizar el formato de textos que se colocan en una página web. Aprende a utilizar tus primeras etiquetas HTML y atributos para definir los contenidos de la página y aplicar un formato básico.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">5.</i>
+						<a href="formato-parrafos.html"><b style="color: #0277bd;">Formato de párrafos en HTML</b></a>
+						<p>Cómo colocar párrafos y saltos de línea en páginas web. También vemos los encabezados como párrafos que sirven de titulo.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">6.</i>
+						<a href="formateando-texto.html"><b style="color: #0277bd;">Formateando el texto</b></a>
+						<p>Vemos como colocar negritas, itálicas, subrayados, subíndices y supreíndices.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">7.</i>
+						<a href="colores-html.html"><b style="color: #0277bd;">Los colores y HTML</b></a>
+						<p>En este artículo aprenderás a crear colores en notación RGB con valores en hexadecimal, la manera más habitual de expresar un color en el lenguaje HTML. Explicamos la correcta utilización de los colores en el HTML.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">8.</i>
+						<a href="atributos.html"><b style="color: #0277bd;">Atributos para páginas</b></a>
+						<p>Explicamos una serie de atributos que se aplican de manera global a toda la página, como el color de fondo el del texto, de los enlaces, márgenes, etc.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">9.</i>
+						<a href="caracteristicas-especiales.html"><b style="color: #0277bd;">Caracteres especiales</b></a>
+						<p>Una referencia útil, y una lista completa de los caracteres especiales del HTML.</p>
+					</li>
+				</ol>
+			</div>
+			<div id="lista" class="item-articulo">
+				<h2>Listas en HTML</h2>
+				<p>A continuación comenzaremos a explicar las listas de HTML que implican varias etiquetas para crear su estructura. Veremos varios tipos de listas que se pueden utilizar para diversos objetivos.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">10.</i>
+						<a href=""><b style="color: #0277bd;">Listas en HTML: Listas desordenadas</b></a>
+						<p>Vemos lo que son las listas y señalamos los tres tipos que hay. Estudiamos las listas desordenadas.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">11.</i>
+						<a href=""><b style="color: #0277bd;">Listas en HTML: Listas ordenadas</b></a>
+						<p>Estudiamos otro tipo de listas: las listas ordenadas.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">12.</i>
+						<a href=""><b style="color: #0277bd;">Listas en HTML: listas de definición</b></a>
+						<p>Vemos las listas de definición y aprendemos a anidar listas para crear estructuras lista más complejas.</p>
+					</li>
+				</ol>
+			</div>
+			<div id="enlaces" class="item-articulo">
+				<h2>Todo sobre los enlaces en HTML</h2>
+				<p>Los enlaces son los elementos que nos permiten navegar por las páginas HTML y son tan importantes que la web no tendría sentido sin ellos. Dedicaremos varios capítulos a explorar los distintos tipos de enlaces, sus usos y diversos consejos para hacer páginas navegables.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">13.</i>
+						<a href=""><b style="color: #0277bd;">Enlaces en HTML</b></a>
+						<p>Vemos qué son los enlaces en HTML y los distintos tipos.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">14.</i>
+						<a href=""><b style="color: #0277bd;">Enlaces internos</b></a>
+						<p>Los enlaces HTML que se hacen con otras partes de la misma página.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">15.</i>
+						<a href=""><b style="color: #0277bd;">Enlaces locales</b></a>
+						<p>Cómo construir enlaces en HTML cuyo destino sean otras páginas dentro del mismo sitio web.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">16.</i>
+						<a href=""><b style="color: #0277bd;"></b>Enlaces externos, de correo y hacia archivos</a>
+						<p>Vemos tres tipos de enlaces. Los dirigidos a otras páginas de otros webs, a direcciones de correo y a ficheros externos.</p>
+					</li>
+				</ol>
+			</div>
+			<div id="img_grafo" class="item-articulo">
+				<h2>Imágenes y formatos gráficos</h2>
+				<p>Veremos todo lo que los creadores de webs deben conocer sobre las imágenes, no sólo cómo incluir imágenes en las páginas, sino también qué formatos gráficos son adecuados en cada caso y cómo podemos optimizar las imágenes para reducir el tiempo de carga de las webs.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">17.</i>
+						<a href=""><b style="color: #0277bd;">Imágenes en HTML</b></a>
+						<p></p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">18.</i>
+						<a href=""><b style="color: #0277bd;">Formatos gráficos para páginas web</b></a>
+						<p>Presenta los formatos gráficos utilizados en las páginas web, el GIF, el JPG y PNG. Hace hincapié en los dos primeros, resumiendo sus características y enseñando a optimizar los ficheros.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">19.</i>
+						<a href=""><b style="color: #0277bd;">Mapas de imágenes con HTML</b></a>
+						<p>Explicamos detalladamente el proceso para crear mapas de imágenes, osea, imágenes que tienes varios enlaces asociados en distintas áreas.</p>
+					</li>
+				</ol>
+			</div>
+			<div id="tablas" class="item-articulo">
+				<h2>Tablas en HTML</h2>
+				<p>Las tablas fueron muy importantes en una época para maquetar páginas web. Hoy lo adecuado es utilizarlas sólo para presentar información tabulada, es decir, colocada en una rejilla de filas y columnas. En los siguientes artículos aprenderemos todo sobre las tablas en HTML.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">20.</i>
+						<a href=""><b style="color: #0277bd;">Tablas en HTML</b></a>
+						<p>Vemos lo que son las tablas, para que sirven y en qué casos podemos utilizarlas. Vemos la tabla más simple posible.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">21.</i>
+						<a href=""><b style="color: #0277bd;">Atributos para tablas HTML</b></a>
+						<p>Conocemos los atributos principales que le podemos asignar a las tablas en el lenguaje HTML de modo general. Además vemos varios ejemplos prácticos de construcción de tablas.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">22.</i>
+						<a href=""><b style="color: #0277bd;">Agrupar filas o columnas de tablas con HTML 4</b></a>
+						<p>En HTML 4.0 podemos agrupar filas de una tabla, o columnas. Sirve para especificar estilos específicos a esas filas o columnas.</p>
+					</li>
+				</ol>
+			</div>
+			<div id="formularios" class="item-articulo">
+				<h2>Formularios en HTML</h2>
+				<p>El trabajo con formularios es uno de los principales puntos que debemos aprender en HTML. Hacen posible muchas de las utilidades clave de una web, como el contacto de los creadores de las páginas con los visitantes, así como ciertos niveles de interacción básica y avanzada con el usuario.</p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">23.</i>
+						<a href=""><b style="color: #0277bd;">Formularios HTML</b></a>
+						<p>Empezamos la explicación de la creación de formularios con el lenguaje HTML.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">24.</i>
+						<a href=""><b style="color: #0277bd;">Elementos de Formularios. Campos de texto</b></a>
+						<p>Vemos detenidamente los distintos elementos de formulario que sirven para introducir texto.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">25.</i>
+						<a href=""><b style="color: #0277bd;">Otros elementos de formulario</b></a>
+						<p>Explicamos la sintaxis y el funcionamiento de las cajas y listas de selección, casillas de verificación y botones de radio.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">26.</i>
+						<a href=""><b style="color: #0277bd;">Envío, borrado y demás en formularios HTML</b></a>
+						<p>Enseñamos la manera de colocar botones de envío y borrado en formularios HTML. También conocemos los campos invisibles y los botones normales. Además, hacemos un ejemplo práctico.</p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;">27.</i>
+						<a href=""><b style="color: #0277bd;">Etiquetas FIELDSET y LEGEND de formularios</b></a>
+						<p>Las etiquetas de HTML FIELDSET y LEGEND sirven para crear bloques de elementos dentro de formularios.</p>
+					</li>
+				</ol>
+			</div>
+			<!-- <div class="item-articulo">
+				<h2></h2>
+				<p></p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;"></i>
+						<a href=""><b style="color: #0277bd;"></b></a>
+						<p></p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;"></i>
+						<a href=""><b style="color: #0277bd;"></b></a>
+						<p></p>
+					</li>
+				</ol>
+			</div>
+			<div class="item-articulo">
+				<h2></h2>
+				<p></p>
+				<br>
+				<hr>
+				<br>
+				<ol style="list-style-type: none;">
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;"></i>
+						<a href=""><b style="color: #0277bd;"></b></a>
+						<p></p>
+					</li>
+					<li style="padding-left: 72px; position: relative; margin-bottom: 20px;">
+						<i style="position: absolute; left: 20px; top: 20px;"></i>
+						<a href=""><b style="color: #0277bd;"></b></a>
+						<p></p>
+					</li>
+				</ol>
+			</div> -->
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
