@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Practica</title>
+</head>
+<body style="display: flex; justify-content: space-evenly;">
+	<form action="" method="post">
+		<h1>Rellena tu CV</h1>
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="estado">Estado</label> 
+			<br>
+			<select name="estado" id="estado">
+				<option value="se">--selecciona--</option>
+				<option value="qr">Quintana Roo</option>
+				<option value="ve">Veracruz</option>
+				<option value="yu">Yucatan</option>
+				<option value="sin">Sinaloa</option>
+			</select>
+			<br>
+			<br>
+			<label for="nacimiento">Fecha de nacimiento</label>
+			<br>
+			<input type="text" name="dia" value="" size="5">
+			<label for=""> de </label>
+			<select name="estado" id="estado">
+				<option value="1">Enero</option>
+				<option value="2">Febrero</option>
+				<option value="3">Marzo</option>
+				<option value="4">Abril</option>
+				<option value="5">Mayo</option>
+				<option value="6">Junio</option>
+				<option value="7">Julio</option>
+				<option value="8">Agosto</option>
+				<option value="9">Septiembre</option>
+				<option value="10">Octubre</option>
+				<option value="11">Noviembre</option>
+				<option value="12">Diciembre</option>
+			</select>
+			<label for=""> de </label>
+			<input type="text" name="anio" value="" size="5">
+			<br>
+			<br>
+			<label for="">Temas de interés</label> 
+			<br>
+			<select name="estado" id="estado" size="5">
+				<option value="1">Juegos</option>
+				<option value="2">Cocina</option>
+				<option value="3">Análisis y programación</option>
+				<option value="4">Arquitectura</option>
+				<option value="5">Calidad</option>
+				<option value="6">Deporte</option>
+				<option value="7">Anime</option>
+				<option value="8">Reproducción</option>
+				<option value="9">Quimica</option>
+				<option value="10">Anatomia Humana</option>
+				<option value="11">Videos</option>
+				<option value="12">Escuela</option>
+			</select>
+		</fieldset>
+	</form>
+	
+	<form action="" method="post">
+		<h1>Información sobre el producto</h1>
+		<fieldset>
+			<legend>Datos básicos</legend>
+			<label for="estado">Nombre</label> 
+			<br>
+			<input type="text" name="nomrbe" size="100">
+			<br>
+			<br>
+			<label for="desc">Descripción</label>
+			<br>
+			<select name="Descripción" id="desc" size="5" style="width: 700px;"></select>
+			<br>
+			<br>
+			<label for="foto">Foto </label>
+			<input type="text" size="20">
+			<input type="file">
+			<br>
+			<br>
+			<input type="checkbox">
+			<label for="checkbox"> Anadir contador de vistas</label>
+		</fieldset>
+		<fieldset>
+			<legend>Datos económicos</legend>
+			<label for="precio">Precio</label>
+			<input type="text" size="5">
+			<label for="sign-precio">$</label>
+			<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Impuestos</label>
+			<select>
+				<option>4%</option>
+				<option>7%</option>
+				<option>16%</option>
+				<option>25%</option>
+			</select>
+			<br>
+			<br>
+			<label>Promoción</label>
+			<br>
+			<input type="radio">
+			<label>Ninguno</label>
+			<br>
+			<input type="radio">
+			<label>Transporte gratuito</label>
+			<br>
+			<input type="radio">
+			<label>Descuento 5%</label>
+		</fieldset>
+	</form>
+</body>
+</html>

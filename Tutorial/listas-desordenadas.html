@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Listas en HTML: Listas desordenadas</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            color: #707070;
+            font-family: "Open Sans", sans-serif;
+            font-display: fallback;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+		}
+
+		body {
+		    position: relative;
+		}
+		body h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 160%;
+            margin-bottom: 30px;
+		}
+		body h2, body h3, body h4, body h5, body h6 {
+            font-weight: 700;
+            line-height: 160%;
+		}
+		body p, body span {
+            font-size: 18px;
+            font-size: 400;
+            line-height: 140%;
+		}
+		body.no_scroll {
+            overflow: hidden;
+            overflow-y: hidden;
+		}
+		body.no-scroll {
+		    overflow: hidden;
+		}
+		body .img-responsive {
+            display: block;
+            max-width: 100%;
+		}
+		body .content {
+            width: 70%;
+            max-width: 1280px;
+            margin: 0 auto;
+		}
+		body .content:before {
+            display: table;
+            content: "";
+            clear: both;
+		}
+		body .content:after {
+            display: table;
+            content: " ";
+            clear: both;
+		}
+		body a {
+            cursor: pointer;
+            text-decoration: none;
+		}
+		body a:hover {
+		    text-decoration: none;
+		}
+		body a:focus {
+		    text-decoration: none;
+		}
+		body p {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ul li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body ol li {
+			font-size: 23px;
+			font-weight: 400;
+			line-height: 160%;
+		}
+		body h2 {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		body h3 {
+			font-size: 32px;
+			font-weight: 400;
+		}
+	</style>
+</head>
+<body class="index_manual">
+	<div class="title_manual" style="padding: 60px 0; background-color: #c9e6fa;">
+		<div class="content">
+			<h1>Listas en HTML: Listas desordenadas</h1>
+			<a href="https://desarrolloweb.com/home/html" style="color: white; background-color: #ef6c00; padding: 10px 10px; border-radius: 5px;">HTML</a>
+		</div>
+	</div>
+	<style>
+		.nav_bar ul li {
+			padding-right: 12px;
+			margin-right: 12px;
+			position: relative;
+			font-size: 15px;
+		}
+		.nav_bar ul li span {
+			font-size: 18px;
+			font-weight: 700;
+			margin-right: 15px;
+		}
+		.nav_bar ul li a {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 160%;
+			color: #36e;
+		}
+	</style>
+	<div class="nav_bar" style="padding: 30px 0;">
+		<div class="content">
+			<ul style="list-style: none; padding: 0; margin: 0; display: flex;">
+				<li><a href="https://desarrolloweb.com/"></a><img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/tutorial-puc29j/assets/654c3bjd4nel/casa_pequen%CC%83a.png" alt="inicio" class="img-responsive" loading="laz"></li>
+				<li><span>></span><a href="https://desarrolloweb.com/manuales">Manuales</a></li>
+				<li><span>></span><a href="index-manual-html.html">Manual de HTML</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="descrip" style="margin-bottom: 50px;">
+		<div class="content">
+			<p style="margin-bottom: 30px;">
+				<b style="font-size: 37px; color: #999; font-weight: 400; line-height: 160%;">Comenzamos con el tema de las listas en HTML. Tipos de listas y detalle sobre las listas desordenadas.</b>
+			</p>
+			<img src="https://desarrolloweb.com/storage/article_featured_images/WSbjvRD8J1kowBUBmYhkzkwoLrClHKArSnynl0VF.jpeg" alt="listas desordenadas" loading="lazy">
+			<p style="margin: 30px 0;">Las posibilidades que nos ofrece el HTML en cuestión de tratamiento de texto son realmente notables. No se limitan a lo visto hasta ahora, sino que van más lejos todavía. Varios ejemplos de ello son las listas, que sirven para enumerar y definir elementos, los textos preformateados y las cabeceras o títulos.</p>
+			<p style="margin-bottom: 30px;">Las listas originalmente están pensadas para citar, numerar y definir cosas a través de características, o al menos así lo hacemos en la escritura de textos. Sin embargo, las listas finalmente se utilizan para mucho más que enumerar una serie de puntos, en realidad son un recurso muy interesante para poder maquetar elementos diversos, como barras de navegación, pestañas etc. Pero esto lo veremos más adelante, cuando apliquemos estilos <a style="color: #36e;" href="https://desarrolloweb.com/home/css">CSS</a> a las listas.</p>
+			<p>De momento, en este <a style="color: #36e;" href="https://desarrolloweb.com/manuales/manual-html.html">Manual de HTML</a>, trataremos las listas desde el punto de vista de su construcción y veremos los diferentes tipos que existen, y que podemos utilizar para resolver nuestras distintas necesidades a la hora de escribir textos en HTML.</p>
+			<div class="nota" style="margin-top: 30px; background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Referencia:</strong> Todos los tipos de listas los hemos explicado en vídeo y se pueden revisar en el <a style="color: #36e;" href="https://desarrolloweb.com/manuales/video-tutorial-html.html">Videotutorial de HTML</a>,  más concretamente en la entrega siguiente: <a style="color: #36e;" href="https://desarrolloweb.com/articulos/videotutorial-listas-html.html">Vídeo sobre las Listas HTML</a>.
+				</p> 
+			</div>
+			<p style="margin-top: 30px;">Podemos distinguir tres tipos de listas HTML:</p>
+			<ul style="margin: 0 0 30px 30px;">
+				<li><a style="color: #36e;" href="listas-desordenadas.html">Listas desordenadas</a></li>
+				<li><a style="color: #36e;" href="listas-ordenadas.html">Listas ordenadas</a></li>
+				<li><a style="color: #36e;" href="listas-definicion.html">Listas de definición</a></li>
+			</ul>
+			<p>Las veremos detenidamente una a una.</p>
+			<h2 style="margin: 30px 0;">Listas desordenadas</h2>
+			<p style="margin-bottom: 30px;">Son delimitadas por las etiquetas UL y su cierre (unordered list). Cada uno de los elementos de la lista es citado por medio de una etiqueta LI (La LI tiene su cierre, aunque si no lo colocas el navegador al ver el siguiente LI interpretará que estás cerrando el anterior). La cosa queda así:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;p&gt;Países del mundo&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Argentina&lt;/li&gt;
+						&lt;li&gt;Perú&lt;/li&gt;
+						&lt;li&gt;Chile&lt;/li&gt;
+					&lt;/ul&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">El resultado:</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3845.jpg" alt="lista desordenada" loading="lazy">
+			<p style="margin: 30px 0;">Podemos definir el tipo de viñeta empleada para cada elemento. Para ello debemos especificarlo por medio del atributo type incluido dentro de la etiqueta de apertura UL, si queremos que el estilo sea válido para toda la lista,o dentro le la etiqueta LI si queremos hacerlo específico de un solo elemento. La sintaxis es del siguiente tipo:</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;ul type="tipo de viñeta"&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">donde tipo de viñeta puede ser uno de los siguientes:</p>
+			<ul style="margin: 0 0 30px 30px;">
+				<li>circle</li>
+				<li>disc</li>
+				<li>square</li>
+			</ul>
+			<div class="nota" style="margin-top: 30px; background-color: #eee; border-radius: 1em; font-size: .9em; padding: 1.5em;">
+				<p>
+					<strong>Nota:</strong> En algunos navegadores no funciona la opción de cambiar el tipo de viñeta a mostrar y por mucho que nos empeñemos, siempre saldrá el redondel negro. <br><br>
+					En caso de que no funcione siempre podemos construir la lista a mano con la viñeta que queramos utilizando las tablas de HTML. Veremos más adelante cómo trabajar con tablas. <br><br>
+					También es posible definir el tipo de viñeta o bullet por medio de CSS.
+				</p> 
+			</div>
+			<p style="margin: 30px 0;">Vamos a ver un ejemplo de lista con un cuadrado en lugar de un redondel, y en el último elemento colocaremos un círculo. Para ello vamos a colocar el atributo type en la etiqueta UL, con lo que afectará a todos los elementos de la lista.</p>
+			<pre style="background-color: #fdf6e3; border-radius: 1em; font-size: .9em;">
+				<code  style="font-size: 23px;">
+					&lt;ul type="square"&gt;
+					&lt;li&gt;Elemento 1 
+					&lt;li&gt;Elemento 2
+					&lt;li&gt;Elemento 3
+					&lt;li type="circle"&gt;Elemento 4
+					&lt;/ul&gt;
+				</code>
+			</pre>
+			<p style="margin: 30px 0;">Que tiene como resultado:</p>
+			<img src="https://desarrolloweb.com/archivoimg/general/3847.jpg" alt="tipos de viñetas" loading="lazy">
+			<p style="margin: 30px 0;">En el siguiente artículo seguiremos hablando de listas, abordando en detalle las <a style="color: #36e;" href="https://desarrolloweb.com/articulos/558.php">listas ordenadas</a>.</p>
+		</div>
+	</div>
+	
+	<div class="dudas" style="background-color: #c9e6fa; padding: 60px 0px;">
+		<div class="content">
+			<h2 style="margin-bottom: 30px; text-align: center;">¿Alguna duda?</h2>
+			<p style="text-align: center; margin-bottom: 30px; ">Pregunta y ayuda en la comunidad con tus respuestas en la <a style="color: #36e;" href="https://desarrolloweb.com/faq">sección de FAQ</a></p>
+			<a style="background-color: #36e; padding: 15px; color: #fff; font-size: 23px; border-radius: 5px; display: block; max-width: 250px; margin: auto;" href="https://desarrolloweb.com/login">Hacer una pregunta</a>
+		</div>
+	</div>
+	<div class="footer" style="padding: 30px 0; background-color: #eff; box-shadow: 0 2px 4px rgba(91,91,91,.7);">
+		<div class="content">
+			<div class="cont_footer" style="display: flex;">
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Aprender</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/manuales">Manuales</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/home">Temas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Gestionar descargas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/canales">Canales</a>
+				</div>
+				<div class="flex_item" style="width: 100%;">
+					<span style="font-size: 25px;">Comunidad</span> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/faq">Preguntas y respuestas</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Hacer una pregunta</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/colecciones">Colecciones</a> <br><br>
+					<a style="font-size: 19px;" href="https://desarrolloweb.com/login">Experiencia</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
