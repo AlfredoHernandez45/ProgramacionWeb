@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Tema 3 (Estructuras de Control)/Examen</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Tema 3 (Estructuras de Control)/Examen/Nivel 1</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+  <!-- question: 1809960  -->
+  <question type="essay">
+    <name>
+      <text>0</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>*** <br> &nbsp;&nbsp; * <br> *** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>****<br> &nbsp; &nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp; &nbsp; * <br></h4><h4> ****</h4><h4>Nivel 5<br></h4><p></p><h4>*****<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp; &nbsp; &nbsp;&nbsp; * <br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br></h4><h4> ***** </h4><br><p></p>
+<p><br></p>
+<p>&nbsp;<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 1809961  -->
+  <question type="essay">
+    <name>
+      <text>1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>*** <br>* <br> *** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>****<br>*</h4><h4>* <br></h4><h4> ****</h4><h4>Nivel 5<br></h4><p></p><h4>*****<br>*</h4><h4>* <br></h4><h4>*<br></h4><h4> ***** </h4><br><p></p>
+<p><br></p>
+<p>&nbsp;<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 1809962  -->
+  <question type="essay">
+    <name>
+      <text>2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>* <br>* <br> *** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>*<br>*</h4><h4>* <br></h4><h4> ****</h4><h4>Nivel 5<br></h4><p></p><h4>*<br>*</h4><h4>* <br></h4><h4>*<br></h4><h4> ***** </h4><br><p></p>
+<p><br></p>
+<p>&nbsp;<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 1809963  -->
+  <question type="essay">
+    <name>
+      <text>3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>&nbsp;&nbsp;&nbsp; * <br>&nbsp;&nbsp;&nbsp; * <br> *** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br></h4><h4> ****</h4><h4>Nivel 5<br></h4><p></p><h4>&nbsp; &nbsp;&nbsp; &nbsp; *<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br></h4><h4> ***** </h4><br><p></p>
+<p><br></p>
+<p>&nbsp;<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Tema 3 (Estructuras de Control)/Examen/Nivel 2</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+  <!-- question: 1809964  -->
+  <question type="essay">
+    <name>
+      <text>0</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>*** <br>&nbsp; &nbsp; * <br>&nbsp;&nbsp;&nbsp; *** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>****<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ****</h4><h4>Nivel 5<br></h4><p></p><h4>*****<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * <br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***** </h4><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 1809965  -->
+  <question type="essay">
+    <name>
+      <text>1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>*** <br>&nbsp; * <br>*** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>****</h4><h4>&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp; * <br></h4><h4>****</h4><h4>Nivel 5<br></h4><p></p><h4>*****<br>&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp; * <br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>***** </h4><p><br></p><p></p><h4>Nivel 6<br></h4><p></p><h4>******<br>&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp; * <br></h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; *</h4><h4>******</h4><br><p></p><p><br></p><h4><br></h4><p><br></p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 1809966  -->
+  <question type="essay">
+    <name>
+      <text>1 (copiar)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<h4>*** <br>&nbsp; * <br>*** <br></h4><h4>Nivel 4<br></h4>
+
+<h4>****</h4><h4>&nbsp; &nbsp; *</h4><h4>&nbsp; * <br></h4><h4>****</h4><h4>Nivel 5<br></h4><p></p><h4>*****</h4><h4>&nbsp; &nbsp; &nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp; *</h4><h4>&nbsp; *</h4><h4>*****</h4><p><br></p><p></p><h4>Nivel 6<br></h4><p></p><h4>******</h4><h4>&nbsp; &nbsp; &nbsp; &nbsp; *<br></h4><h4>&nbsp;&nbsp;&nbsp; &nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp; *</h4><p></p><h4></h4><h4>&nbsp; *</h4><p></p><h4>******</h4><br><p></p><p><br></p><h4><br></h4><p><br></p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Tema 3 (Estructuras de Control)/Examen/Nivel 3</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+  <!-- question: 1809967  -->
+  <question type="essay">
+    <name>
+      <text>0</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><p><br></p>
+<h4>Nivel 3</h4>
+<p>*** <br>*** <br>*** <br></p><h4>Nivel 4<br></h4>
+
+<h4>****</h4><h4>*&nbsp; *</h4><h4>&nbsp; *&nbsp; *<br></h4><h4>****</h4><h4>Nivel 5<br></h4><p></p><h4>*****</h4><h4>* &nbsp; *</h4><h4>&nbsp;&nbsp; *</h4><h4>&nbsp;* &nbsp;&nbsp; *</h4><h4>*****</h4><p><br></p><p>Nivel 6<br></p><h4>******<br>*&nbsp; &nbsp;&nbsp; *<br>&nbsp; &nbsp;&nbsp; *<br>&nbsp;&nbsp; * <br>&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>******</h4><p><br></p><p></p><p>Nivel 7<br></p><h4>*******<br>*&nbsp; &nbsp; &nbsp;&nbsp; *<br>&nbsp; &nbsp;&nbsp; &nbsp; *<br>&nbsp; &nbsp;&nbsp; * <br>&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp; <br></h4><h4>&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>*******</h4><p><br></p><p><p>Nivel 8<br></p><h4>********<br>*&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; *<br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; *<br>&nbsp; &nbsp;&nbsp; &nbsp; * <br>&nbsp; &nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp; <br></h4><h4>&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></h4><h4>&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>********</h4><br></p><br><p></p><p><br></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+  <!-- question: 1809968  -->
+  <question type="essay">
+    <name>
+      <text>1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><h4>Realizar una clase en BlueJ llamada&nbsp; Figuras que tenga la siguiente propiedad</h4>
+<h4>Nivel:&nbsp; Entero,&nbsp; que va a ser el nivel de la figura</h4>
+<h4>y tenga los siguientes métodos:</h4>
+<h4>SetNivel(PNivel):&nbsp; Va a asignar el nivel de la figura</h4>
+<h4>DespliegaFigura():&nbsp; Según el nivel va a desplegar una figura de la siguiente forma:</h4>
+<h4><br></h4><h4>ejemplos:</h4><h4><br></h4><h4>Nivel 3<br></h4><h4>***</h4><h4>&nbsp; *</h4><h4>***</h4><p><br></p><h4>Nivel 4<br></h4><h4>****</h4><h4>&nbsp; **</h4><h4>&nbsp; **</h4><h4>****</h4><p><br></p><h4>Nivel 5<br></h4><h4><br>*****</h4><h4>&nbsp; * *</h4><h4>&nbsp;&nbsp; *</h4><h4>&nbsp; * *</h4><h4>*****</h4><p><br></p><h4>Nivel 6<br></h4><h4>******</h4><h4>&nbsp; *&nbsp; *</h4><h4>&nbsp;&nbsp; **</h4><h4>&nbsp;&nbsp; **</h4><h4>&nbsp; *&nbsp; *</h4><h4>******</h4><p><br></p><h4>Nivel 7<br>*******</h4><h4>&nbsp; *&nbsp; &nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp;&nbsp; * *</h4><h4>&nbsp; &nbsp;&nbsp; *</h4><h4>&nbsp; &nbsp; * *</h4><h4>&nbsp; *&nbsp; &nbsp;&nbsp; *</h4><h4>*******</h4><p><br></p><h4>Nivel 8 <br>********</h4><h4>&nbsp;*&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; *</h4><h4>&nbsp;&nbsp; * &nbsp;&nbsp; *</h4><h4>&nbsp; &nbsp;&nbsp; **</h4><h4>&nbsp; &nbsp;&nbsp; **</h4><h4>&nbsp;&nbsp; * &nbsp;&nbsp; *</h4><h4>&nbsp;*&nbsp; &nbsp; &nbsp; &nbsp; *</h4><h4>********&nbsp; </h4><p><br></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>1</attachments>
+    <attachmentsrequired>1</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+  </question>
+
+</quiz>
