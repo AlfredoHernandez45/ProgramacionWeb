@@ -2,14 +2,24 @@
   margin: 0;
   padding: 0;
   color: #707070;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif, 'Times New Roman', Times, serif;
   font-display: fallback;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-smoothing: antialiased;
+  text-decoration: none;
+  list-style: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  --main-color:#67bc8a;
+  --second-color:#edeae3;
+  --text-color:#1b1b1b;
+  --bg-color: #fff;
 }
 
 body h1 {

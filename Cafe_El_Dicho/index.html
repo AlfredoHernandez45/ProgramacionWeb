@@ -1,23 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>El Dicho</title>
-	<link rel="stylesheet" href="css/mainstyle.css">
+	<title>Cafeteria</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
-<body class="cafe_index">
-	<div class="content">
-		<h1>Cafetería el Dicho</h1>
-		<p>
-			Disfruta del sabor de nuestra deliciosa cafetería desde la comodidad de tu hogar con nuestro servicio de entrega a domicilio. 
-			Ofrecemos una amplia variedad de bebidas y platillos preparados con ingredientes frescos y de la mejor calidad para que puedas disfrutarlos en cualquier momento del día.
-		</p>
-		<div class="btns">
-			<a href="">Iniciar Sesión</a>
-			<a href="">Registrarse</a>
+
+<body>
+
+
+	<header>
+		<a href="#" class="logo">
+			<img src="img/logo.png" alt="">
+		</a>
+
+		<i class='bx bx-menu' id="menu-icon"></i>
+		<ul class="navbar">
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#producttos">Productos</a></li>
+			<li><a href="#direccion">Dirección</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+
+		<div class="header-icon">
+			<i class='bx bx-cart-alt'></i>
+			<i class='bx bx-search' id="search-icon"></i>
 		</div>
+
+	</header>
+
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>¿Listo para despertar?</h1>
+			<p>Bienvenido seas a nuestra cafeteria, contamos con gran variedad de sabores</p>
+			<a href="#" class="btn">Nueva Compra</a>
+		</div>
+
+		<div class="home-img">
+			<img src="img/main.png" alt="">
+
+		</div>
+	</section>
+
+
+
+	<section class="products" id="products">
+		<div class="heading">
+			<h2>Productos</h2>
+		</div>
+
+		<div class="products-container">
+			<div class="box">
+				<img src="img/frape.png" alt="">
+				<h3>Frappuccino</h3>
+				<div class="content">
+					<span>$50</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/mokaa.png" alt="">
+				<h3>Moka</h3>
+				<div class="content">
+					<span>$55</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/oreo.png" alt="">
+				<h3>Frappe Oreo</h3>
+				<div class="content">
+					<span>$60</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+
+
+			<div class="box">
+				<img src="img/capucciono.png" alt="">
+				<h3>Capuccino</h3>
+				<div class="content">
+					<span>$40</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/Expresso.png" alt="">
+				<h3>Expresso</h3>
+				<div class="content">
+					<span>$45</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/frapp.png" alt="">
+				<h3>Americano</h3>
+				<div class="content">
+					<span>$35</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/p1.png" alt="">
+				<h3>Galleta de chocolate</h3>
+				<div class="content">
+					<span>$20</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/p1.png" alt="">
+				<h3>Galleta con nueces</h3>
+				<div class="content">
+					<span>$20</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="img/p1.png" alt="">
+				<h3>Galleta de vainilla</h3>
+				<div class="content">
+					<span>$15</span>
+					<a href="#">Comprar</a>
+				</div>
+			</div>
+
+
+
+		</div>
+
+	</section>
+
+	<div class="footer">
+		<p>
+		<h3> Contacto: 9831234567 <br> Dirección: Av. Andres Quintana Roo entre Insurgentes y Juan José Siorda!
+			https://goo.gl/maps/ik7cVLSPsWrWVMNT9</h3>
+		</p>
 	</div>
+
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+	<df-messenger chat-title="Cafeteria_IA" agent-id="39350e75-1a68-444d-bc1d-66843bd6dca3"
+		language-code="es"></df-messenger>
+
 </body>
+
 </html>
