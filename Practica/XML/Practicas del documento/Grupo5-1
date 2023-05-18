@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados[
+  <!ELEMENT empleados (empleado*)>
+  <!ELEMENT empleado (nombre, apellidos, rfc?, fijo?, direccion+)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT rfc (#PCDATA)>
+  <!ELEMENT fijo (#PCDATA)>
+  <!ELEMENT direccion (#PCDATA)>
+]>
+
+<empleados>
+  <empleado>
+    <nombre>John</nombre>
+    <apellidos>Doe</apellidos>
+    <rfc>ABC123</rfc>
+    <fijo>123456789</fijo>
+    <direccion>Main Street, City, Country</direccion>
+    <direccion>Second Avenue, Town, Country</direccion>
+  </empleado>
+  <empleado>
+    <nombre>Jane</nombre>
+    <apellidos>Smith</apellidos>
+    <fijo>987654321</fijo>
+    <direccion>First Road, Village, Country</direccion>
+  </empleado>
+</empleados>

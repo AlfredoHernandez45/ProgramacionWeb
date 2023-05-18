@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+  <!ELEMENT futbol (jugador*)>
+  <!ELEMENT jugador EMPTY>
+  <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+  <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+
+<futbol>
+  <jugador nombre="Alfredo Di Stéfano" codigo="a1"/>
+  <jugador nombre="Edson Arantesdo Nascimento-Pelé" codigo="b2" />
+  <jugador nombre="Diego Armando Maradona" codigo="a3" />
+  <jugador nombre="Johan Cruyff" codigo="a4" />
+</futbol>
+
+<!-- 
+  En el atributo nombre NMTOKENS se pueden separar los textos por un espacio,
+  por un gion, gionbajo... Pero no se puede usar coma, "?", "¡"...
+
+  El codigo ID no puede empezar con un numero, solo puede empezar con una letra 
+  mayuscula o minuscula.
+ -->

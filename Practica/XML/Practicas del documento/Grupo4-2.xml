@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula [
+  <!ELEMENT pelicula EMPTY>
+  <!ATTLIST pelicula titulo CDATA #IMPLIED>
+]>
+
+<pelicula titulo="La diligencia"/>
+
+<!-- 
+En el ejemplo que proporcionas <!ATTLIST pelicula titulo CDATA #IMPLIED>, 
+se está definiendo un atributo llamado titulo para el elemento pelicula. El atributo 
+titulo se define como un atributo de tipo CDATA (datos de caracteres) y se declara 
+como opcional (usando #IMPLIED), lo que significa que un elemento <pelicula> 
+puede o no tener este atributo. 
+-->

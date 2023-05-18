@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaCompra [
+  <!ELEMENT listaCompra (item*)>
+  <!ELEMENT item EMPTY>
+  <!ATTLIST item nombre CDATA #REQUIRED>
+  <!ATTLIST item cantidad CDATA #REQUIRED>
+]>
+
+<listaCompra>
+  <item nombre="Milk" cantidad="12 litros" ></item>
+  <item nombre="Chocolate" cantidad="3 barras de cuarto" />
+</listaCompra>
+
+<!-- 
+  Aqui se cambio se cambio a "item" y se agrego el nombre a cada atributo
+  porque como el nombre y la cantidad son requeridos es obligatorio ponerlo
+ -->
